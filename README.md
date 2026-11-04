@@ -260,16 +260,5 @@ at `93a962c`), which processes UBE4B (Starita et al. 2013), PABP (Melamed et al.
 to Meta's. None are redistributed here. Full attributions in
 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-## Citation
 
-```bibtex
-@inproceedings{li2027fourfold,
-  title     = {Beyond Mutational Distance: Structure-Constrained Navigation
-               of Protein Fitness Landscapes},
-  author    = {Li, Haiqing and Zheng, Zheng and Wu, Yinhao and Yang, Hongyu
-               and Ma, Hehuan and Guo, Yuzhi and Huang, Junzhou},
-  booktitle = {RECOMB},
-  year      = {2027}
-}
-```
 # FOURFOLD
