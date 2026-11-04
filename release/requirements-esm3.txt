@@ -1,0 +1,18 @@
+# The project venv is created with --system-site-packages to reuse the existing
+# CUDA-enabled torch 2.9 installation. Install these without dependency-driven
+# torch replacement; see docs/ESM3_IMPLEMENTATION.md.
+esm==3.2.1.post1
+loguru==0.7.3
+transformers==4.48.1
+huggingface-hub==0.36.2
+tokenizers==0.21.4
+torchvision==0.24.0
+torchtext==0.18.0
+biopython==1.88
+biotite==1.2.0
+biotraj==1.2.2
+zstd==1.5.7.2
+msgpack-numpy==0.4.8
+cloudpathlib==0.25.0
+brotli==1.2.0
+

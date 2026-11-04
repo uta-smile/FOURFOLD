@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fourfold"
+version = "1.0.0"
+description = "FOURFOLD: structure-constrained navigation of protein fitness landscapes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.0",
+  "scipy>=1.15",
+  "scikit-learn>=1.3",
+  "torch>=2.1",
+  "peft==0.14.0",
+  "transformers>=4.48",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
