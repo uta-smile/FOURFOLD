@@ -3,13 +3,11 @@
 Reference implementation for **"Beyond Mutational Distance: Structure-Constrained Navigation of
 Protein Fitness Landscapes."**
 
-> Method code only — no trained weights, no anchor pools, no assay data. Nothing needed to
-> reproduce the paper is missing. The two ensembles retrain **bitwise-identically** from the public
-> assay files at the seeds given below, and the search reproduces the reported behaviour from any
-> unfiltered sample of 100 measured starting sequences — which is what the paper's pools are. More
-> anchors, or a longer schedule, should only improve on it. Weights will be released separately as
-> a convenience, not as a dependency.
+### Code Availability and Reproducibility
 
+We release the complete FOURFOLD implementation, including model training, sequence generation, iterative search, structural screening, and evaluation code. While pretrained model weights, the original anchor pools, and assay datasets are not included in this repository, the released code allows researchers to train their own guide and scorer ensembles, reproduce the computational workflow, and evaluate FOURFOLD on other protein fitness landscapes using compatible assay data.
+
+Our goal is to make FOURFOLD accessible and extensible, enabling researchers to adapt the framework to different proteins, datasets, and experimental settings. Pretrained checkpoints may be released separately to facilitate reuse.
 ---
 
 ## Method
